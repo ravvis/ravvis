@@ -9,7 +9,7 @@ const Experiences = () => {
         Internships
       </Link>
     </h2>
-    {EXPERIENCES.map((experience, index) => <ProjectCard {...experience} key={index}/>)}
+    {EXPERIENCES.map((experience, index) => <ProjectCard {...experience} key={`experience-${index}`}/>)}
   </>
 }
 export default Experiences;

@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="px-1"/>
     I can be reached at
     <div className="px-1"/>
-    <Link href={EMAIL}>{EMAIL}</Link>
+    <Link href={`mailto:${EMAIL}`}>{EMAIL}</Link>
   </h5>
 }
 export default Contact;

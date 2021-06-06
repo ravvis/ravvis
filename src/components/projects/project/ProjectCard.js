@@ -1,4 +1,4 @@
-import {Card, CardContent, CardHeader, Link} from "@material-ui/core";
+import {Card, CardContent, CardHeader, Link, Typography} from "@material-ui/core";
 
 const ProjectCard = ({ title, content, image_src, image, description, technologies = [], time, url }) => {
   return (
@@ -16,14 +16,19 @@ const ProjectCard = ({ title, content, image_src, image, description, technologi
                   {content}
                 </div>
               }
-              <div className="d-flex">
-                {technologies.map((tech, index) => <div className="pe-2">{tech}{index !== technologies.length - 1 ? ", " : ""}</div>)}
-              </div>
+              <Typography variant="caption" display="block" gutterBottom>
+                { time }
+              </Typography>
+              <Typography variant="caption" display="block" gutterBottom>
+                <div className="d-flex">
+                  {technologies.map((tech, index) => <div className="pe-2">{tech}{index !== technologies.length - 1 ? ", " : ""}</div>)}
+                </div>
+              </Typography>
             </CardContent>
           </div>
           <div className="p-3">
             { !!image && image }
-            { !!image_src && <img src={image_src} width="80px" alt="img"/> }
+            { !!image_src && <img src={image_src} width="60px" alt="img"/> }
           </div>
         </div>
       </Card>

@@ -20,7 +20,7 @@ const Projects = () => {
         </Link>
       </Tooltip>
     </h2>
-    {PROJECTS.map((project, index) => <ProjectCard {...project} key={index}/>)}
+    {PROJECTS.map((project, index) => <ProjectCard {...project} key={`project-${index}`}/>)}
   </div>
 }
 export default Projects;
