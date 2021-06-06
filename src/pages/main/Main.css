@@ -1,0 +1,11 @@
+.Main {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #151a21;
+    padding: 90px 120px;
+}
+@media screen and (max-width: 767px){
+    .Main {
+        padding: 24px;
+    }
+}
