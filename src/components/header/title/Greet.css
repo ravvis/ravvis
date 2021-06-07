@@ -1,0 +1,19 @@
+.Greet {
+
+}
+@media screen and (max-width: 1630px){
+    .Greet {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 481px){
+    .Greet {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 480px){
+    .Greet {
+        font-size: 27px;
+    }
+}
+
