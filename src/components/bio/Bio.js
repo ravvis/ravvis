@@ -1,8 +1,6 @@
 import ReactMarkdown from 'react-markdown'
-
-const BIO_MD = "I am a computer science undergraduate at IIIT Guwahati.\n" +
-  "\n" +
-  "I am a tech enthusiast and an explorer, I like to try my hands on different technologies and see their impact. \n";
+import {BIO_MD} from "./Utils";
+import "./Bio.css";
 
 const Bio = () => {
   return (

@@ -13,7 +13,10 @@ const Main = () => {
     <div id="home">
       <Header/>
     </div>
-    <div className="p-4"/>
+    {/*<div className="p-4"/>*/}
+    <div className="p-4">
+      <Divider/>
+    </div>
     <div className="p-1"/>
     <div id="profile">
       <Slogan/>

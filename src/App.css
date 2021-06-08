@@ -1,6 +1,12 @@
 .App {
   font-size: 22px;
 }
+@media screen and (max-width: 767px){
+  .App {
+    font-size: 16px;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
