@@ -1,10 +1,10 @@
 I am a hobbyist software developer and an explorer.
 
-In year 2019, I started by programming journey with C and been in this rabbit hole ever since. During this time I have worked on a range of technologies such as Javascript, Python, Vue, React, Django, MySQL, and the list goes on, and the fundamentals that I built t IIITG helped me always.
+In year 2019, I started my programming journey with C and been in this rabbit hole ever since. During this time I have worked on a range of technologies such as Javascript, Python, Vue, React, Django, MySQL, and the list goes on, and the fundamentals that were built at IIITG helped me always.
 
-Currently, I am an Intern and exploring the world of large scale software, meeting new people and learning along.
+Currently, I am an Intern and exploring the world of large scale softwares, meeting new people and learning along.
 
-Mostly, I have worked on frontend web technologies such as Vue, React, etc. and I am always intrigued by the scale a frontend architecture can achieve, and I am always ready to learn as the frontend world keeps on enhancing.
+Mostly, I have worked with frontend web technologies such as Vue, React, etc. and I am always intrigued by the scale a frontend architecture can achieve, and I am always ready to learn as the frontend world keeps on enhancing.
 
 I am always looking forward to trying new ideas and work on exciting projects.
 

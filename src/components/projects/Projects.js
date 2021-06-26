@@ -13,7 +13,7 @@ const Projects = () => {
       </Link>
       <div className="px-1"/>
       <Tooltip title="Projects on github">
-        <Link href={'https://github.com/singh-ravi-siso'} target="_blank">
+        <Link href={'https://github.com/ravvis'} target="_blank">
           <IconButton aria-label={"Projects on github"} >
             <GitHubIcon/>
           </IconButton>

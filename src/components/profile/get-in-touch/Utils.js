@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 export const GET_IN_TOUCH_PLATFORMS = [
   {
     icon: <GitHubIcon/>,
-    url: "https://github.com/singh-ravi-siso",
+    url: "https://github.com/ravvis",
     label: "Github",
   },
   {
