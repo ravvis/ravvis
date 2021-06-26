@@ -17,6 +17,7 @@ const Screen = ({ path, location, time }) => {
                 maxWidth: "100%"
             }}
             src={baseImageGalleryPath("LE", path)}
+            alt="GALLERY - LE"
         />
             <Typography
                 variant="caption"
