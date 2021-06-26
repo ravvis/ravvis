@@ -31,7 +31,7 @@ const ProjectCard = ({ title, content, image_src, image, description, technologi
             </Typography>
             <Typography variant="caption" display="block" gutterBottom>
               <div className="d-flex">
-                {technologies.map((tech, index) => <div className="pe-2">{tech}{index !== technologies.length - 1 ? ", " : ""}</div>)}
+                {technologies.map((tech, index) => <div className="pe-2" key={index}>{tech}{index !== technologies.length - 1 ? ", " : ""}</div>)}
               </div>
             </Typography>
           </CardContent>

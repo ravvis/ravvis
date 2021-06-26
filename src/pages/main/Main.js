@@ -7,6 +7,7 @@ import Experiences from "../../components/experience/Experiences";
 import Contact from "../../components/contact/Contact";
 import {Divider} from "@material-ui/core";
 import Slogan from "../../components/slogan/Slogan";
+import Gallery from "../../components/gallery/bio/Gallery";
 
 const Main = () => {
   return <div className="Main">
@@ -25,8 +26,10 @@ const Main = () => {
     <div id="profile">
       <Profile/>
     </div>
-    <div className="p-3">
-      <Divider/>
+    <div className="py-3" style={{
+
+    }}>
+      <Gallery/>
     </div>
     <div id="experiences">
       <Experiences/>
