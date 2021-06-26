@@ -9,3 +9,17 @@ Mostly, I have worked with frontend web technologies such as Vue, React, etc. an
 I am always looking forward to trying new ideas and work on exciting projects.
 
 I also like to  wander different places, which might be a reason for me choosing IIIT Guwahati. I have travelled some places, including, north-east, pondicherry, chikmangloor, etc, and looking forward to cover more locations in the future.
+
+## Kuvera
+- Worked on developing various UI components for Kuvera's homepage redesign project
+- Explored vue-nativescript as a replacement for Kuvera's hybrid mobile application
+- Worked with the best people and collected a lot of learnings and memories :)
+
+## Stockarea
+- Was a part of Stockarea's core tech team.
+- Built a frontend architecture from scratch and an in-house UI system
+- Implemented CI/CD workflows using github and travis
+- Learnt how to handle chaos, deliver fast products and iterate :)
+
+## INDmoney
+- Building financial timeline products as a part of goals team.

@@ -1,4 +1,6 @@
 import {Card, CardContent, CardHeader, Link, Typography} from "@material-ui/core";
+import ReactMarkdown from 'react-markdown'
+import {BIO_MD} from "../../bio/Utils";
 
 const ProjectCard = ({ title, content, image_src, image, description, technologies = [], time, url }) => {
   return (
@@ -12,9 +14,9 @@ const ProjectCard = ({ title, content, image_src, image, description, technologi
             <CardContent>
               {
                 content &&
-                <div>
-                  {content}
-                </div>
+                <Typography variant="subtitle2" display="block" gutterBottom>
+                  <ReactMarkdown>{ content }</ReactMarkdown>
+                </Typography>
               }
               <Typography variant="caption" display="block" gutterBottom>
                 { time }

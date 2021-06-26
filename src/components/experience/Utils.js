@@ -7,6 +7,7 @@ export const EXPERIENCES = [
       "React",
       "Javascript"
     ],
+    content: `- Building financial timeline products as a part of goals team.`,
     url: 'https://www.indwealth.in/',
     time: "June 2021 - Present"
   },
@@ -18,9 +19,12 @@ export const EXPERIENCES = [
       "Vue",
       "Javascript"
     ],
+    content: `- Was a part of Stockarea's core tech team.
+- Built a frontend architecture from scratch and an in-house UI system
+- Implemented CI/CD workflows using github and travis
+- Learnt how to handle chaos, deliver fast products and iterate :)`,
     url: 'https://stockarea.io/',
-    time: "" +
-      "May 2020 - Present"
+    time: "May 2020 - Present"
   },
   {
     title: 'Kuvera',
@@ -30,6 +34,9 @@ export const EXPERIENCES = [
       "Vue",
       "Javascript"
     ],
+    content: `- Worked on developing various UI components for Kuvera's homepage redesign project
+- Explored vue-nativescript as a replacement for Kuvera's hybrid mobile application
+- Worked with the best people and collected a lot of learnings and memories :)`,
     url: 'https://www.kuvera.in/',
     time: "Dec 2019 - Jan 2020"
   },
