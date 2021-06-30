@@ -7,3 +7,5 @@ export const baseImageGalleryPath = (gallery_name = "LE", path) => {
 }
 
 export const isMobile = () => window.innerWidth < 570;
+
+export const RESUME_URL = () => `https://drive.google.com/file/d/18PmKdMY4JyT3d0_zq1w5SHfKUS-0BeGe/view?usp=sharing`;
