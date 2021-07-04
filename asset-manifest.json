@@ -1,25 +1,31 @@
 {
   "files": {
     "main.css": "/ravvis/static/css/main.9d6814ac.chunk.css",
-    "main.js": "/ravvis/static/js/main.339adbc4.chunk.js",
-    "main.js.map": "/ravvis/static/js/main.339adbc4.chunk.js.map",
-    "runtime-main.js": "/ravvis/static/js/runtime-main.d5cf054d.js",
-    "runtime-main.js.map": "/ravvis/static/js/runtime-main.d5cf054d.js.map",
+    "main.js": "/ravvis/static/js/main.b4382612.chunk.js",
+    "main.js.map": "/ravvis/static/js/main.b4382612.chunk.js.map",
+    "runtime-main.js": "/ravvis/static/js/runtime-main.656864fd.js",
+    "runtime-main.js.map": "/ravvis/static/js/runtime-main.656864fd.js.map",
     "static/css/2.4f8976c6.chunk.css": "/ravvis/static/css/2.4f8976c6.chunk.css",
-    "static/js/2.52308f34.chunk.js": "/ravvis/static/js/2.52308f34.chunk.js",
-    "static/js/2.52308f34.chunk.js.map": "/ravvis/static/js/2.52308f34.chunk.js.map",
-    "static/js/3.318a07c4.chunk.js": "/ravvis/static/js/3.318a07c4.chunk.js",
-    "static/js/3.318a07c4.chunk.js.map": "/ravvis/static/js/3.318a07c4.chunk.js.map",
+    "static/js/2.3b293650.chunk.js": "/ravvis/static/js/2.3b293650.chunk.js",
+    "static/js/2.3b293650.chunk.js.map": "/ravvis/static/js/2.3b293650.chunk.js.map",
+    "static/js/3.1e2cd85e.chunk.js": "/ravvis/static/js/3.1e2cd85e.chunk.js",
+    "static/js/3.1e2cd85e.chunk.js.map": "/ravvis/static/js/3.1e2cd85e.chunk.js.map",
+    "static/js/4.7fe16b8c.chunk.js": "/ravvis/static/js/4.7fe16b8c.chunk.js",
+    "static/js/4.7fe16b8c.chunk.js.map": "/ravvis/static/js/4.7fe16b8c.chunk.js.map",
+    "static/js/5.44292463.chunk.js": "/ravvis/static/js/5.44292463.chunk.js",
+    "static/js/5.44292463.chunk.js.map": "/ravvis/static/js/5.44292463.chunk.js.map",
+    "static/js/6.bff5136b.chunk.js": "/ravvis/static/js/6.bff5136b.chunk.js",
+    "static/js/6.bff5136b.chunk.js.map": "/ravvis/static/js/6.bff5136b.chunk.js.map",
     "index.html": "/ravvis/index.html",
     "static/css/2.4f8976c6.chunk.css.map": "/ravvis/static/css/2.4f8976c6.chunk.css.map",
     "static/css/main.9d6814ac.chunk.css.map": "/ravvis/static/css/main.9d6814ac.chunk.css.map",
-    "static/js/2.52308f34.chunk.js.LICENSE.txt": "/ravvis/static/js/2.52308f34.chunk.js.LICENSE.txt"
+    "static/js/2.3b293650.chunk.js.LICENSE.txt": "/ravvis/static/js/2.3b293650.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5cf054d.js",
+    "static/js/runtime-main.656864fd.js",
     "static/css/2.4f8976c6.chunk.css",
-    "static/js/2.52308f34.chunk.js",
+    "static/js/2.3b293650.chunk.js",
     "static/css/main.9d6814ac.chunk.css",
-    "static/js/main.339adbc4.chunk.js"
+    "static/js/main.b4382612.chunk.js"
   ]
 }
