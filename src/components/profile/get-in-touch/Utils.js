@@ -16,7 +16,7 @@ export const GET_IN_TOUCH_PLATFORMS = [
   },
   {
     icon: <Description/>,
-    URL: RESUME_URL(),
+    url: RESUME_URL(),
     label: "Resume"
   }
 ];

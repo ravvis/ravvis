@@ -1,8 +1,8 @@
 import {Link} from "@material-ui/core";
 
-const NavItem = ({ label, url }) => {
-  return <div className="pe-4 py-2 NavItem">
-    <Link href={url}>
+const NavItem = ({ label, url, external }) => {
+  return <div className="pe-3 py-2 NavItem">
+    <Link href={url} target={external ? "_blank" : "_self"}>
       {label}
     </Link>
   </div>
