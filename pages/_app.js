@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Ravindra's personal homepage - Developer / Explorer</title>
+      <title>Ravindra</title>
     </Head>
     <React.StrictMode>
       <ThemeProvider theme={theme}>
