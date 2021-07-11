@@ -1,18 +1,16 @@
 import Profile from "../../components/profile/Profile";
 import Header from "../../components/header/Header";
 
-import "./Main.css";
+import styles from "./Main.module.css";
 import Contact from "../../components/contact/Contact";
 import {Divider} from "@material-ui/core";
 import Slogan from "../../components/slogan/Slogan";
-import {Suspense, lazy} from "react";
-
-const Gallery = lazy(() => import('../../components/gallery/bio/Gallery'));
-const Experiences = lazy(() => import("../../components/experience/Experiences"));
-const Projects = lazy(() => import( "../../components/projects/Projects"));
+import Gallery from "../../components/gallery/bio/Gallery";
+import Experiences from "../../components/experience/Experiences";
+import Projects from "../../components/projects/Projects";
 
 const Main = () => {
-  return <div className="Main">
+  return <div className={styles.Main}>
     <div id="home">
       <Header/>
     </div>
@@ -27,25 +25,17 @@ const Main = () => {
     <div id="profile">
       <Profile/>
     </div>
-    <div className="py-3" style={{
-
-    }}>
-      <Suspense fallback="Loading...">
-        <Gallery/>
-      </Suspense>
+    <div className="py-3">
+      <Gallery/>
     </div>
     <div id="experiences">
-      <Suspense fallback="Loading...">
-        <Experiences/>
-      </Suspense>
+      <Experiences/>
     </div>
     <div className="p-3">
       <Divider/>
     </div>
     <div id="projects">
-      <Suspense fallback="Loading...">
-        <Projects/>
-      </Suspense>
+      <Projects/>
     </div>
     <div className="p-3">
       <Divider/>
