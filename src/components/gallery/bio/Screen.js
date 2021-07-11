@@ -1,14 +1,14 @@
-import {baseImageGalleryPath, isMobile} from "../../../Utils";
+import {baseImageGalleryPath} from "../../../Utils";
 import {Typography} from "@material-ui/core";
+import Image from "next/image";
 
 const Screen = ({ path, location, time }) => {
     return <div>
         <div
             style={{
-                // margin: '0' ,
                 background: '#0e0e0e',
                 width: "100%",
-                height: isMobile() ? "400px" : "640px",
+                height: "400px",
             }}
             className="d-flex align-items-center justify-content-center position-relative"
         ><img
