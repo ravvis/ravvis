@@ -73,3 +73,39 @@ a:focus::after {
 .textGray {
   color: rgb(83, 100, 113);
 }
+
+/* Heading */
+.heading{
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 129.69%;
+  letter-spacing: 0.03em;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.movingUpAnimation {
+  z-index: 0;
+  transform: translateY(30px);
+  opacity: 0;
+  animation: 1s ease 0.2s 1 normal forwards running movingUpAnimation;
+}
+
+@media (min-width: 959px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@keyframes movingUpAnimation {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
