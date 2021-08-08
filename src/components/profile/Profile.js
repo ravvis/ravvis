@@ -12,7 +12,8 @@ const Profile = () => {
       <div className="ps-sm-5 py-2 d-flex flex-column justify-content-center align-items-center">
         <Avatar/>
         <div className="p-2"/>
-        <GetInTouch/>
+        {/*TODO: Find better way for get in touch*/}
+        {/*<GetInTouch/>*/}
       </div>
     </div>
   )

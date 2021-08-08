@@ -1,5 +1,5 @@
-import {Link} from "@material-ui/core";
 import styles from "./Nav.module.css";
+import Link from "next/link";
 
 const NavItem = ({ label, url, external }) => {
   return <div className={`pe-3 py-2 ${styles.NavItem}`}>

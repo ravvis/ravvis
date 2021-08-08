@@ -1,14 +1,14 @@
-import {Card, CardContent, CardHeader, Link, Typography} from "@material-ui/core";
 import ReactMarkdown from 'react-markdown'
+import Link from "next/link";
 
 const ProjectCard = ({ title, content, image_src, image, description, technologies = [], time, url }) => {
   return (
     <>
-      <Card>
+      <div>
         <div className="p-sm-3 my-1">
           <Link href={url} target="_blank">
             <div className="d-flex justify-content-between flex-nowrap">
-              <CardHeader
+              <div
                 title={title}
                 subheader={description}
                 titleTypographyProps={{ className: "fs-3 pb-1" }}
@@ -19,24 +19,24 @@ const ProjectCard = ({ title, content, image_src, image, description, technologi
               </div>
             </div>
           </Link>
-          <CardContent>
+          <div>
             {
               content &&
-              <Typography variant="subtitle2" display="block" gutterBottom>
+              <div variant="subtitle2" display="block" gutterBottom>
                 <ReactMarkdown>{ content }</ReactMarkdown>
-              </Typography>
+              </div>
             }
-            <Typography variant="caption" display="block" gutterBottom>
+            <div variant="caption" display="block" gutterBottom>
               { time }
-            </Typography>
-            <Typography variant="caption" display="block" gutterBottom>
+            </div>
+            <div variant="caption" display="block" gutterBottom>
               <div className="d-flex">
                 {technologies.map((tech, index) => <div className="pe-2" key={index}>{tech}{index !== technologies.length - 1 ? ", " : ""}</div>)}
               </div>
-            </Typography>
-          </CardContent>
+            </div>
+          </div>
         </div>
-      </Card>
+      </div>
       <div className="py-2"/>
     </>
   )

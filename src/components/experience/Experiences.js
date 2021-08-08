@@ -1,6 +1,6 @@
 import {EXPERIENCES} from "./Utils";
 import ProjectCard from "../projects/project/ProjectCard";
-import {Link} from "@material-ui/core";
+import Link from "next/link";
 
 const Experiences = () => {
   return <>

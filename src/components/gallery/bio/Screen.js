@@ -1,6 +1,4 @@
 import {baseImageGalleryPath} from "../../../Utils";
-import {Typography} from "@material-ui/core";
-import Image from "next/image";
 
 const Screen = ({ path, location, time }) => {
     return <div>
@@ -19,14 +17,13 @@ const Screen = ({ path, location, time }) => {
             src={baseImageGalleryPath("LE", path)}
             alt="GALLERY - LE"
         />
-            <Typography
-                variant="caption"
+            <div
                 className="position-absolute bottom-0 end-0 p-2"
                 style={{ color: "rgba(255, 255, 255, 0.7)"}}
             >
                 <div>{ location }</div>
                 <div>{ time }</div>
-            </Typography>
+            </div>
         </div>
     </div>
 }

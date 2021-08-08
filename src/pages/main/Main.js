@@ -3,7 +3,6 @@ import Header from "../../components/header/Header";
 
 import styles from "./Main.module.css";
 import Contact from "../../components/contact/Contact";
-import {Divider} from "@material-ui/core";
 import Slogan from "../../components/slogan/Slogan";
 import Gallery from "../../components/gallery/bio/Gallery";
 import Experiences from "../../components/experience/Experiences";
@@ -15,7 +14,7 @@ const Main = () => {
       <Header/>
     </div>
     <div className="p-2 p-sm-4">
-      <Divider/>
+
     </div>
     <div className="p-1"/>
     <div id="profile">
@@ -32,13 +31,13 @@ const Main = () => {
       <Experiences/>
     </div>
     <div className="p-3">
-      <Divider/>
+
     </div>
     <div id="projects">
       <Projects/>
     </div>
     <div className="p-3">
-      <Divider/>
+
     </div>
     <div id="contact">
       <Contact/>
