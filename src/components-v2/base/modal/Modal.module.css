@@ -1,0 +1,33 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--bg-overlay);
+  display: none;
+  z-index: 2000;
+}
+.modalWrapperShow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: var(--surface);
+  border-radius: 16px;
+}
+.modalHeader {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+}
+.modalContentPadding {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

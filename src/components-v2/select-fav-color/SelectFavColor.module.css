@@ -1,0 +1,35 @@
+.selectFavColorCTA {
+  width: 20px;
+  height: 20px;
+  background: var(--fav-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.selectFavColorLabel {
+  margin-top: 16px;
+}
+.selectFavColorInputColor {
+  margin: 25px 25px 25px 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectFavColorInputColor:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 0.7s ease;
+}
+.selectFavColorInputColorChecked{
+  width: 30px;
+  height: 30px;
+}
+.selectFavColorInputColorWrapper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.selectFavColorAction{
+  margin-top: 60px;
+}

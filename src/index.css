@@ -1,16 +1,75 @@
 @import "App.css";
-@import '~bootstrap/dist/css/bootstrap-utilities.min.css';
-
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: Muli,sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.long {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px)
+}
+
+h1 {
+  font-weight: 700;
+}
+
+:root{
+  --pink: #ffa7c4;
+  --bg-color: white;
+  --fav-color: rgb(121, 75, 196);
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+  --surface: white;
+}
+
+/* Link */
+a{
+  text-decoration: none;
+  color: var(--fav-color);
+  overflow: hidden;
+}
+a:hover{
+  position: relative;
+}
+
+a::after {
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--fav-color);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  transform: translate3d(-20%, 0, 0);
+}
+
+a:hover::after,
+a:focus::after {
+  position: absolute;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+/* Common CSS utilities*/
+.d-flex {
+  display: flex;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.textGray {
+  color: rgb(83, 100, 113);
 }
