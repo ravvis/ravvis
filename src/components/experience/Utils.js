@@ -9,7 +9,7 @@ export const EXPERIENCES = [
     ],
     content: `- Building financial timeline products as a part of goals team.`,
     url: 'https://www.indwealth.in/',
-    time: "June 2021 - Present"
+    time: "July 2021 - Present"
   },
   {
     title: 'Stockarea',
@@ -24,7 +24,7 @@ export const EXPERIENCES = [
 - Implemented CI/CD workflows using github and travis
 - Learnt how to handle chaos, deliver fast products and iterate :)`,
     url: 'https://stockarea.io/',
-    time: "May 2020 - Present"
+    time: "May 2020 - July 2021"
   },
   {
     title: 'Kuvera',
