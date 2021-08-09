@@ -17,12 +17,23 @@ h1 {
   font-weight: 700;
 }
 
+html {
+  font-size: 16px;
+}
+@media (max-width: 579px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
 :root{
   --pink: #ffa7c4;
   --bg-color: white;
   --fav-color: rgb(121, 75, 196);
   --bg-overlay: rgba(0, 0, 0, 0.4);
   --surface: white;
+  --font-color: black;
 }
 
 /* Link */
@@ -31,7 +42,7 @@ a{
   color: var(--fav-color);
   overflow: hidden;
 }
-a:hover{
+a:hover, a:focus{
   position: relative;
 }
 
@@ -108,4 +119,8 @@ a:focus::after {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.text-center{
+  text-align: center;
 }

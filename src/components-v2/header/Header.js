@@ -5,7 +5,7 @@ import Title from "./Title";
 import SelectFavColor from "../select-fav-color/SelectFavColor";
 const NAVS = [
   {
-    url: "#experiences",
+    url: "#projects",
     label: "Projects",
   },
   {

@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     padding: 8px 0;
     background-color: var(--bg-color);
+    z-index: 1;
 }
 .headerNavWrapper {
     display: flex;
