@@ -1,0 +1,24 @@
+.projectsList {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.projectsListItemWrapper {
+  width: 100%;
+}
+.projectsParagraph{
+  margin: 50px 0px;
+  color: rgb(105, 105, 105);
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 184.69%;
+  letter-spacing: 0.03em;
+}
+
+@media (min-width: 959px) {
+  .projectsListItemWrapper {
+    width: 50%;
+  }
+}

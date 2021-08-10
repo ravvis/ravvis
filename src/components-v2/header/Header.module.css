@@ -25,7 +25,8 @@
 
 @media (min-width: 959px) {
     .headerWrapper {
-        padding: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     .headerNavItem {
         font-size: 1.2rem;

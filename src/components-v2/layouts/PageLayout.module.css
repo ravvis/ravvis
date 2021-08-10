@@ -1,6 +1,5 @@
 .pageLayoutWrapper {
     padding: 1.5rem;
-    min-height: 100vh;
 }
 .pageLayout {
     display: flex;

@@ -1,0 +1,38 @@
+.projectCTA{
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  margin-bottom: 90px;
+  transition-duration: 0.3s;
+}
+.projectCTATitle{
+
+}
+.projectCTADescription{
+  margin: 10px 0px 20px;
+  color: rgb(105, 105, 105);
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 184.69%;
+  letter-spacing: 0.03em;
+  max-width: unset;
+}
+.projectCTAViewProject{
+  margin: 50px 0px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 163.19%;
+  display: inline;
+  color: black;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease 0s;
+}
+.projectCTA:hover .projectCTAViewProject{
+  border-bottom: 2px solid black;
+}

@@ -67,6 +67,15 @@ a:focus::after {
 
 
 /* Common CSS utilities*/
+.d-block {
+  display: block;
+}
+@media (max-width: 579px) {
+  .d-sm-none{
+    display: none;
+  }
+}
+
 .d-flex {
   display: flex;
 }
