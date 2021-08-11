@@ -44,3 +44,22 @@ export const FooterLinks = [
   },
 ]
 export const sourceCodeURL = "https://github.com/ravvis/ravvis";
+
+export const myExperiencesNote = "";
+export const myExperiences = [
+  {
+    name: "INDmoney",
+    position: "Software Developer Intern",
+    timeline: "July 2021 - Present"
+  },
+  {
+    name: "Stockarea",
+    position: "Software Developer Intern",
+    timeline: "May 2020 - July 2021"
+  },
+  {
+    name: "Kuvera",
+    position: "Software Developer Intern",
+    timeline: "Dec 2019"
+  },
+]

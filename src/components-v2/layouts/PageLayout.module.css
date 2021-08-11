@@ -4,6 +4,7 @@
 .pageLayout {
     display: flex;
     flex-direction: column;
+    min-height: calc(100vh - 3rem);
 }
 .pageLayoutHeader{
     position: sticky;

@@ -6,7 +6,7 @@ export default function () {
   return <div className={styles.footerWrapper}>
     <div className={styles.footerLeftWrapper}>
       <Logo/>
-      <a className={styles.footerSourceCode} target="_blank" href={sourceCodeURL}>See the source code</a>
+      <a className={`favLink ${styles.footerSourceCode}`} target="_blank" href={sourceCodeURL}>See the source code</a>
     </div>
     <div className={styles.footerLinkWrapper}>
       <div>

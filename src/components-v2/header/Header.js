@@ -27,7 +27,7 @@ export default function Header({ className = "" }){
     <Title/>
     <ul className={styles.headerNavWrapper}>
       {
-        NAVS.map((nav, index) => <li key={index} className={`${styles.headerNavItem} ${nav.class || ""}`}>
+        NAVS.map((nav, index) => <li key={index} className={`${styles.headerNavItem} ${nav.class || ""} favLink`}>
           <Link href={nav.url}>
             { nav.label }
           </Link>
