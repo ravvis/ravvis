@@ -1,0 +1,25 @@
+.footerWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerLeftWrapper{
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.footerSourceCode{
+  cursor: pointer;
+  margin-left: 24px;
+  font-weight: 600;
+}
+.footerLink {
+  margin-right: 24px;
+}
+.footerLinkWrapper{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}

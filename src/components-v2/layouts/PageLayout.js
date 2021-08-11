@@ -1,5 +1,6 @@
 import Header from "../header/Header";
 import styles from "./PageLayout.module.css";
+import Footer from "../footer/Footer";
 
 export default function PageLayout({ children }) {
   return <div className={styles.pageLayoutWrapper}>
@@ -8,6 +9,7 @@ export default function PageLayout({ children }) {
       <div className={styles.pageLayoutBody}>
         { children }
       </div>
+      <Footer/>
     </div>
   </div>
 }

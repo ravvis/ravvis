@@ -6,7 +6,7 @@ import Connect from "../src/components-v2/connect/Connect";
 export default function Index() {
   return <PageLayout>
     <About/>
-    <Projects/>
-    <Connect/>
+    {/*<Projects/>*/}
+    {/*<Connect/>*/}
   </PageLayout>
 }

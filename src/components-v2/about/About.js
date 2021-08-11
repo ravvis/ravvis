@@ -16,8 +16,15 @@ export default function (){
         <br/>
       </span>
     </h1>
+
     <p>
-      I am a computer science undergraduate from IIIT Guwahati.
+      I am a computer science undergraduate from IIIT Guwahati. The reason I like programming is because of the power it provides. With the right use of tech you can build a product that can touch thousands of lives.
+   </p>
+    <p>
+      I have done several internships during my college life where I got to work on some of the path-breaking products.
+    </p>
+    <p>
+      Currently I'm interning with INDmoney, building financial timeline products as a part of the goals team.
     </p>
   </div>
 }

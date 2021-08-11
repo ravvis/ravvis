@@ -7,7 +7,11 @@ body {
   padding: 0;
   margin: 0
 }
-
+*, ::before, ::after {
+  box-sizing: border-box;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
 .long {
   -webkit-transform: translateY(5px);
   transform: translateY(5px)
@@ -18,11 +22,11 @@ h1 {
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media (max-width: 579px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -34,6 +38,7 @@ html {
   --bg-overlay: rgba(0, 0, 0, 0.4);
   --surface: white;
   --font-color: black;
+  --color__primary--muted: rgba(136,153,255,0.4);
 }
 
 /* Link */
