@@ -1,5 +1,6 @@
 .pageLayoutWrapper {
     padding: 1.5rem;
+    padding-top: unset;
 }
 .pageLayout {
     display: flex;
@@ -16,5 +17,6 @@
 @media (min-width: 959px) {
     .pageLayoutWrapper {
         padding: 3rem;
+        padding-top: unset;
     }
 }
