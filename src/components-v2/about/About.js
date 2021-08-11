@@ -4,7 +4,7 @@ export default function (){
   return <div className={`${styles.aboutWrapper}`}>
     <h1 className={`${styles.aboutIntro} movingUpAnimation`}>
       <span>
-        Hi there, I’m <a href="https://twitter.com/ssravvi">Ravindra</a>.
+        Hi there, I’m <a className="favLink" href="https://twitter.com/ssravvi">Ravindra</a>.
         <br/>
       </span>
         <span>
@@ -12,7 +12,7 @@ export default function (){
         <br/>
       </span>
         <span>
-        Student, and intern at <a href="https://www.indmoney.com/">INDmoney</a>.
+        Student, and intern at <a className="favLink" href="https://www.indmoney.com/">INDmoney</a>.
         <br/>
       </span>
     </h1>

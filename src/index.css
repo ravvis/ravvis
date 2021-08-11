@@ -44,14 +44,17 @@ html {
 /* Link */
 a{
   text-decoration: none;
+  color: inherit;
+}
+.favLink{
   color: var(--fav-color);
   overflow: hidden;
 }
-a:hover, a:focus{
+.favLink:hover, .favLink:focus{
   position: relative;
 }
 
-a::after {
+.favLink::after {
   content: '';
   bottom: 0;
   left: 0;
@@ -63,8 +66,8 @@ a::after {
   transform: translate3d(-20%, 0, 0);
 }
 
-a:hover::after,
-a:focus::after {
+.favLink:hover::after,
+.favLink:focus::after {
   position: absolute;
   opacity: 1;
   transform: translate3d(0, 0, 0);

@@ -1,8 +1,8 @@
 .footerWrapper{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 .footerLeftWrapper{
   display: flex;
@@ -22,4 +22,16 @@
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 579px) {
+  .footerLinkWrapper{
+    width: 100%;
+  }
+  .footerLeftWrapper{
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
