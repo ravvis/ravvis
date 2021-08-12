@@ -60,6 +60,7 @@ export const myExperiences : Array<myExperienceType> = [
   {
     name: "Kuvera",
     position: "Software Developer Intern",
-    timeline: "Dec 2019"
+    timeline: "Dec 2019",
+    readMoreLink: "https://ravvis.hashnode.dev/working-at-kuvera"
   },
 ]
