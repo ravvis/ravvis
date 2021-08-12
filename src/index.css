@@ -33,7 +33,9 @@ html {
 :root{
   --pink: #ffa7c4;
   --bg-color: white;
-  --fav-color: rgb(121, 75, 196);
+  --fav-color-code: 121, 75, 196;
+  --fav-color: rgb(var(--fav-color-code));
+  --fav-color-bg: rgb(var(--fav-color-code), 0.1);
   --bg-overlay: rgba(0, 0, 0, 0.4);
   --surface: white;
   --font-color: black;

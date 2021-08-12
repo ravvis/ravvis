@@ -1,0 +1,13 @@
+.writingListCTATags {
+  margin-right: 16px;
+  padding: 4px 12px;
+  font-size: 0.7rem;
+  color: var(--fav-color);
+  font-weight: 600;
+  background-color: var(--fav-color-bg);
+  border-radius: 16px;
+}
+.writingListCTATagsWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}

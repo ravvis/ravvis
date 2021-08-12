@@ -18,3 +18,11 @@ export interface footerLinkType {
   link: string,
   icon: ReactNode
 }
+
+export interface WritingType {
+  title: string,
+  description: string,
+  link: string,
+  date: string,
+  tags: string[],
+}

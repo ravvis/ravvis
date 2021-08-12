@@ -12,14 +12,14 @@ export const RESUME_URL = () => `https://drive.google.com/file/d/18PmKdMY4JyT3d0
 
 export const setFavColor = (color : string) => {
   if(typeof window !== "undefined"){
-    localStorage.setItem("--fav-color", color);
+    localStorage.setItem("--fav-color-code", color);
     const r : HTMLElement | null = document.querySelector(':root');
-    r && r.style.setProperty('--fav-color', color);
+    r && r.style.setProperty('--fav-color-code', color);
   }
 }
 export const getFavColor = () => {
   if(typeof window !== "undefined"){
-    return localStorage.getItem("--fav-color") || getFavColors()[0].color;
+    return localStorage.getItem("--fav-color-code") ||  getFavColors()[0].color;
   }
   return getFavColors()[0].color;
 }
@@ -27,27 +27,27 @@ export const getFavColors = () => {
   return [
     {
       name: "Purple",
-      color: "rgb(121, 75, 196)"
+      color: "121, 75, 196"
     },
     {
       name: "Blue",
-      color: "rgb(29, 161, 242)"
+      color: "29, 161, 242"
     },
     {
       name: "Green",
-      color: "rgb(23, 191, 99)"
+      color: "23, 191, 99"
     },
     {
       name: "yellow",
-      color: "rgb(255, 173, 31)"
+      color: "255, 173, 31"
     },
     {
       name: "Orange",
-      color: "rgb(244, 93, 34)"
+      color: "244, 93, 34"
     },
     {
       name: "Red",
-      color: "rgb(224, 36, 94)"
+      color: "224, 36, 94"
     }
   ]
 }

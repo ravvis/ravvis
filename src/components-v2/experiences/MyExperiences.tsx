@@ -3,7 +3,7 @@ import {myExperiencesNote, myExperiences} from "../../data-store";
 import ExperienceList from "./ExperienceList";
 
 export default function MyExperiences(){
-  return <SectionLayout header="My Experience">
+  return <SectionLayout header="Experiences">
     <div>
       <div>
         { myExperiencesNote }

@@ -1,5 +1,5 @@
 import {GitHub, Instagram, Linkedin, Twitter} from "react-feather";
-import type {footerLinkType, myExperienceType, myProjectType} from "./types"
+import type {footerLinkType, myExperienceType, myProjectType, WritingType} from "./types"
 export const projects : Array<myProjectType> = [
   {
     title: "BitQ",
@@ -62,4 +62,21 @@ export const myExperiences : Array<myExperienceType> = [
     position: "Software Developer Intern",
     timeline: "Dec 2019"
   },
+]
+
+export const Writings : Array<WritingType> = [
+  {
+    title: "Coding a simple module bundler 📦",
+    description: "Let's understand how module bundlers work under the hood 🤔",
+    link: "https://ravvis.hashnode.dev/coding-a-simple-module-bundler",
+    date: "Jul 6, 2021",
+    tags: ["Javascript", "Module Bundlers", "Webpack"]
+  },
+  {
+    title: "Coding a simple module bundler 📦",
+    description: "Let's understand how module bundlers work under the hood 🤔",
+    link: "https://ravvis.hashnode.dev/coding-a-simple-module-bundler",
+    date: "Jul 6, 2021",
+    tags: ["Javascript", "Module Bundlers", "Webpack"]
+  }
 ]

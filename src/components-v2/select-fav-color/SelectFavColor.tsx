@@ -17,7 +17,7 @@ export default function SelectFavColor(){
         <div className={styles.selectFavColorInputColorWrapper}>
           { getFavColors().map(({ color }) => <div
             className={`${styles.selectFavColorInputColor} ${color === selectedFavColor ? "" : "pointer"}`}
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: `rgb(${color})` }}
             onClick={() => {
               setFavColor(color);
               setSelectedFavColor(color);
