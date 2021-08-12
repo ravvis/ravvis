@@ -13,7 +13,7 @@ export const RESUME_URL = () => `https://drive.google.com/file/d/18PmKdMY4JyT3d0
 export const setFavColor = (color) => {
   if(typeof window !== "undefined"){
     localStorage.setItem("--fav-color", color);
-    const r = document.querySelector(':root');
+    const r : HTMLElement = document.querySelector(':root');
     r.style.setProperty('--fav-color', color);
   }
 }

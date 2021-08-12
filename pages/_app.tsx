@@ -2,10 +2,11 @@ import '../src/index.css';
 import Head from "next/head";
 import {useEffect, useState} from "react";
 import {getFavColor, setFavColor} from "../src/Utils";
+import {AppProps} from "next/app";
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps } : AppProps) {
 
-  const [favColorLocal, setFavColorLocal] = useState(getFavColor());
+  const [favColorLocal, setFavColorLocal] = useState<string>(getFavColor());
 
   useEffect(() => {
     console.log(`
