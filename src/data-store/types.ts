@@ -3,7 +3,8 @@ import type { ReactNode } from "react";
 export interface myExperienceType {
   name: string,
   position: string,
-  timeline: string
+  timeline: string,
+  readMoreLink? : string
 }
 
 export interface myProjectType {
