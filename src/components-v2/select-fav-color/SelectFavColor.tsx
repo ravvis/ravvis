@@ -1,5 +1,5 @@
 import styles from "./SelectFavColor.module.css";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import Modal from "../base/modal/Modal";
 import {getFavColor, setFavColor, getFavColors} from "../../Utils";
 import {CheckMarkIcon} from "../base/icons/Icons";
@@ -27,7 +27,9 @@ export default function SelectFavColor(){
           </div>) }
         </div>
         <div className={`${styles.selectFavColorAction} d-flex justify-content-center align-items-center`}>
-          <Button onClick={() => setSelect(false)}>
+          <Button onClick={() => {
+            setSelect(false)
+          }}>
             Done
           </Button>
         </div>

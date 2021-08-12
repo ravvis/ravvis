@@ -1,7 +1,15 @@
 import styles from "./Experiences.module.css";
 import Link from "next/link"
 
-export default function ExperienceCta({ name, timeline, position }){
+export default function ExperienceCta(
+  { name,
+    timeline,
+    position
+  }: {
+    name: string,
+    timeline: string,
+    position: string
+  }){
   return <div className={styles.experienceCTA}>
     <Link href={`/work/${name}`}>
       <a>
