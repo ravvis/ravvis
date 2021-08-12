@@ -1,8 +1,8 @@
-export const baseImagePath = (path = "") => {
+export const baseImagePath = (path = "") : string => {
   return "" + path
 }
 
-export const baseImageGalleryPath = (gallery_name = "LE", path) => {
+export const baseImageGalleryPath = (gallery_name = "LE", path : string) => {
   return baseImagePath("/gallery/" + gallery_name + "/" + path);
 }
 
@@ -10,11 +10,11 @@ export const baseImageGalleryPath = (gallery_name = "LE", path) => {
 
 export const RESUME_URL = () => `https://drive.google.com/file/d/18PmKdMY4JyT3d0_zq1w5SHfKUS-0BeGe/view?usp=sharing`;
 
-export const setFavColor = (color) => {
+export const setFavColor = (color : string) => {
   if(typeof window !== "undefined"){
     localStorage.setItem("--fav-color", color);
-    const r = document.querySelector(':root');
-    r.style.setProperty('--fav-color', color);
+    const r : HTMLElement | null = document.querySelector(':root');
+    r && r.style.setProperty('--fav-color', color);
   }
 }
 export const getFavColor = () => {

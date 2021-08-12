@@ -7,6 +7,8 @@ export default function Project(){
   const { projectName } = router.query;
   const project = getProjectByName(projectName);
 
+  if(typeof projectName !== "string") return <></>;
+
   return <ProjectLayout projectName={projectName}>
     {JSON.stringify(project)}
   </ProjectLayout>

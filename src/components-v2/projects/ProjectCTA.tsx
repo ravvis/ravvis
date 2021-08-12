@@ -2,7 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./ProjectCTA.module.css";
 
-export default function ProjectCTA({ imageUrl, title, description, link }) {
+export default function ProjectCTA(
+  { imageUrl,
+    title,
+    description,
+    link
+  }: {
+    imageUrl: string,
+    title: string,
+    description: string,
+    link: string
+  }) {
   return <div className={styles.projectCTA}>
     <Link href={link}>
       <div>

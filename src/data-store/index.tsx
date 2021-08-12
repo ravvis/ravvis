@@ -1,6 +1,6 @@
 import {GitHub, Instagram, Linkedin, Twitter} from "react-feather";
-
-export const projects = [
+import type {footerLinkType, myExperienceType, myProjectType} from "./types"
+export const projects : Array<myProjectType> = [
   {
     title: "BitQ",
     description: "An easy to use Bitbucket API client for Javascript",
@@ -15,13 +15,13 @@ export const projects = [
   },
 ]
 
-export function getProjectByName(projectName) {
+export function getProjectByName(projectName: string | undefined | string[]) : myProjectType | undefined {
   return projects.find(project => project.title === projectName);
 }
-export function getExcludingProjects(projectName){
+export function getExcludingProjects(projectName: string | undefined) : Array<myProjectType> {
   return projects.filter(project => project.title !== projectName);
 }
-export const FooterLinks = [
+export const FooterLinks : Array<footerLinkType> = [
   {
     label: "Github",
     link: "https://github.com/ravvis",
@@ -43,10 +43,10 @@ export const FooterLinks = [
     icon: <Instagram/>
   },
 ]
-export const sourceCodeURL = "https://github.com/ravvis/ravvis";
+export const sourceCodeURL : string = "https://github.com/ravvis/ravvis";
 
-export const myExperiencesNote = "";
-export const myExperiences = [
+export const myExperiencesNote : string = "";
+export const myExperiences : Array<myExperienceType> = [
   {
     name: "INDmoney",
     position: "Software Developer Intern",
