@@ -17,6 +17,9 @@
 .footerLink {
   margin-right: 24px;
 }
+.footerLink:hover{
+  color: var(--fav-color);
+}
 .footerLinkWrapper{
   margin-top: 16px;
   margin-bottom: 16px;

@@ -4,6 +4,7 @@
   --bg-color: white;
   --surface: white;
   --font-color: black;
+  --font-color-muted: grey;
   --bg-color-dark: #121212;
   --surface-dark: #121212;
   --font-color-dark: white;
@@ -17,6 +18,7 @@
 
 [data-theme='dark'] {
   --bg-color: #121212;
+  --font-color-muted: rgb(110, 118, 125);
   --surface: #121212;
   --font-color: white;
   --backdrop-color: rgba(91, 112, 131, 0.4);
@@ -50,11 +52,11 @@ h1 {
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media (max-width: 579px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -144,6 +146,14 @@ a{
   animation: 1s ease 0.2s 1 normal forwards running movingUpAnimation;
 }
 
+.movingRightAnimation {
+  z-index: 0;
+  transform: translateX(30px);
+  opacity: 0;
+  animation: 1s ease 0.2s 1 normal forwards running movingRightAnimation;
+}
+
+
 @media (min-width: 959px) {
   .heading {
     font-size: 40px;
@@ -157,6 +167,16 @@ a{
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes movingRightAnimation {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }
@@ -175,4 +195,7 @@ a{
 }
 .textDark{
   color: white;
+}
+.textMuted{
+  color: var(--font-color-muted);
 }

@@ -27,8 +27,19 @@
   font-weight: bold;
 }
 
-.description {
-
+.subtitle {
+  vertical-align: middle;
+}
+.descriptionReadMore{
+  display: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 24px;
+  vertical-align: middle;
+  animation-duration: 0.4s;
+}
+.post:hover .descriptionReadMore{
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
