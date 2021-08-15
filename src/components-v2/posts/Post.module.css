@@ -1,0 +1,40 @@
+.post {
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.image {
+  height: 75px;
+  width: 195px;
+  flex-shrink: 0;
+  position: relative;
+  margin-right: 24px;
+}
+
+.image img {
+  border-radius: 8px;
+}
+
+/*.image figure {*/
+/*  border-radius: 8px;*/
+/*  height: 65px;*/
+/*  overflow: hidden;*/
+/*  width: 65px;*/
+/*}*/
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: 45px;
+    width: 65px;
+    margin-right: 16px;
+  }
+}

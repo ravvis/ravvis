@@ -15,7 +15,8 @@ export default function SelectFavColor(){
       <div>
         <div className={`${styles.selectFavColorLabel} textGray`}>Select your favourite color 🌈</div>
         <div className={styles.selectFavColorInputColorWrapper}>
-          { getFavColors().map(({ color }) => <div
+          { getFavColors().map(({ color}, index) => <div
+            key={index}
             className={`${styles.selectFavColorInputColor} ${color === selectedFavColor ? "" : "pointer"}`}
             style={{ backgroundColor: color }}
             onClick={() => {

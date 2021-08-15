@@ -1,21 +1,16 @@
-import Logo from "../Logo";
 import styles from "./Footer.module.css";
 import {FooterLinks, sourceCodeURL} from "../../data-store";
 
 export default function () {
-  return <div className={styles.footerWrapper}>
-    <div className={styles.footerLeftWrapper}>
-      <Logo/>
-      <a className={`favLink ${styles.footerSourceCode}`} target="_blank" href={sourceCodeURL}>See the source code</a>
-    </div>
+  return <footer className={styles.footerWrapper}>
     <div className={styles.footerLinkWrapper}>
       <div>
         {
-          FooterLinks.map((footerLink) => <a href={footerLink.link} className={styles.footerLink} target="_blank">
+          FooterLinks.map((footerLink, index) => <a href={footerLink.link} key={index} className={styles.footerLink} target="_blank">
             { footerLink.icon }
           </a>)
         }
       </div>
     </div>
-  </div>
+  </footer>
 }

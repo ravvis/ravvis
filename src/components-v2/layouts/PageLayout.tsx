@@ -7,9 +7,9 @@ const PageLayout = ({ children } : { children : ReactNode | Element }) => {
   return <div className={styles.pageLayoutWrapper}>
     <div className={styles.pageLayout}>
       <Header className={styles.pageLayoutHeader}/>
-      <div className={styles.pageLayoutBody}>
+      <main className={styles.pageLayoutBody}>
         { children }
-      </div>
+      </main>
       <Footer/>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type {ReactNode} from "react";
+// import type {ReactNode} from "react";
 
 export default function ({ isLink = true } : { isLink? : boolean }){
   return isLink ? <Link href="/">
