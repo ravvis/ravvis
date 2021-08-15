@@ -1,9 +1,9 @@
 .selectFavColorCTA {
-  width: 20px;
-  height: 20px;
-  background: var(--fav-color);
-  border-radius: 50%;
+  color: var(--fav-color);
   cursor: pointer;
+  border: unset;
+  background: unset;
+  padding: 4px;
 }
 .selectFavColorLabel {
   margin-top: 16px;
@@ -32,4 +32,19 @@
 }
 .selectFavColorAction{
   margin-top: 60px;
+}
+.selectFavThemeWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.selectFavThemeButton{
+  padding: 16px;
+  width: 49%;
+  margin-top: 24px;
+  cursor: pointer;
+  border: unset;
+  font-weight: bold;
+}
+.selectFavThemeButton.selectFavThemeButtonSelected{
+  border: 2px solid var(--fav-color);
 }

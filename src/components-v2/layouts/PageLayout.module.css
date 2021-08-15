@@ -1,11 +1,15 @@
 .pageLayoutWrapper {
     padding: 1.5rem;
     padding-top: unset;
+    display: flex;
+    justify-content: center;
 }
 .pageLayout {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 3rem);
+    max-width: 800px;
+    flex: 1;
 }
 .pageLayoutHeader{
     position: sticky;
