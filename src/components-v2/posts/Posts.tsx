@@ -23,7 +23,7 @@ export default function Posts(){
 
   return <div className="movingUpAnimation">
     <h3 className="textMuted">
-      Top {posts.length} posts
+      Top {posts.length} posts from my publication - <a href="https://ravvis.hashnode.dev/" className="favLink">Build and Learn ✨</a>
     </h3>
     {
       posts.map((post, index) => <div key={index}><Post {...post}/></div>)

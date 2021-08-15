@@ -9,7 +9,7 @@ export default function (){
         <br/>
       </span>
       <span>
-        Software Developer,
+        Software Developer, Student
         <br/>
       </span>
         <span>
