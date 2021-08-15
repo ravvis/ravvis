@@ -3,6 +3,7 @@ import Head from "next/head";
 import {useEffect, useState} from "react";
 import {getFavColor, setFavColor} from "../src/Utils";
 import {AppProps} from "next/app";
+import {ThemeProvider} from "next-themes";
 
 export default function MyApp({ Component, pageProps } : AppProps) {
 
@@ -37,6 +38,8 @@ export default function MyApp({ Component, pageProps } : AppProps) {
         rel="stylesheet"
       />
     </Head>
-    <Component {...pageProps} />
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
   </>)
 }
