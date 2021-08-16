@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import {getFavColor, setFavColor} from "../src/Utils";
 import {AppProps} from "next/app";
 import {ThemeProvider} from "next-themes";
+import Analytics from "../src/components-v2/analytics/Analytics";
 
 export default function MyApp({ Component, pageProps } : AppProps) {
 
@@ -37,6 +38,7 @@ export default function MyApp({ Component, pageProps } : AppProps) {
         href="https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2"
         rel="stylesheet"
       />
+      <Analytics/>
     </Head>
     <ThemeProvider>
       <Component {...pageProps} />
